@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 // function calcAge1(birthYear) {
 // 	return 2037 - birthYear
@@ -109,7 +109,7 @@ const totals = []
 
 const calcTip = bill => (bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2)
 
-// console.log(bills.length)
+console.log(bills.length)
 
 for (let i = 0; i <= bills.length - 1; i++) {
 	tips.push(calcTip(bills[i]))
